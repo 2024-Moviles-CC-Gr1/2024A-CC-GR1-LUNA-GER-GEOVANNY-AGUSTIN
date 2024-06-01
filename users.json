@@ -1,0 +1,1 @@
+[{"id":1,"nombre":"Ford","anioFundacion":2024,"esPublica":false,"paisOrigen":"Estados Unidos","numeroTotalModelos":1,"modelos":[{"id":1,"nombre":"Modelo Ford","precio":800.99,"tipo":"Sedan","esElectrico":true},{"id":2,"nombre":"Model 3","precio":900.99,"tipo":"Sedan","esElectrico":false},{"id":3,"nombre":"Modelo 3","precio":60.99,"tipo":"Sedan","esElectrico":true}]}]
