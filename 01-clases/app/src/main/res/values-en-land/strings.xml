@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Condition1">exercise1</string>
+    <color name="fondo1">#139384</color>
+    <color name="texto1">#673AB7</color>
 </resources>

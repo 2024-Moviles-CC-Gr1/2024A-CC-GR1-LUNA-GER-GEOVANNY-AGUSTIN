@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">2024ACCGR1GALG</string>
+    <string name="saludo">Hello World</string>
+    <string-array name="string_array_opciones">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+    </string-array>
+    <string name="Condition1">Condicion1</string>
+    <string name="Condition2">Condicion2</string>
+    <string name="Condition3">Condition3</string>
+    <string name="Condition4">Condition4</string>
+
 </resources>

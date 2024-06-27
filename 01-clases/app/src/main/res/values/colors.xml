@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#ff0000</color>
+    <color name="fondo2">#FFF200</color>
+    <color name="texto2">#A80000</color>
+    <color name="fondo1">#FFF200</color>
+    <color name="texto1">#A80000</color>
+    <color name="fondo3">#FFF200</color>
+    <color name="texto3">#A80000</color>
+    <color name="fondo4">#FFF200</color>
+    <color name="texto4">#A80000</color>
 </resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "441821057279",
+    "project_id": "galg-2024a-cc-gr1",
+    "storage_bucket": "galg-2024a-cc-gr1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441821057279:android:e979acc53eca008a783cca",
+        "android_client_info": {
+          "package_name": "com.example.a2024accgr1galg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdtbDNiGajwEpxclFHDXJ_uL6kbXSi_Ag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
