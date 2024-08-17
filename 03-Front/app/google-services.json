@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "834083670697",
+    "project_id": "frontweb-8ab5a",
+    "storage_bucket": "frontweb-8ab5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834083670697:android:17480c1802ae2c4c9ef7b8",
+        "android_client_info": {
+          "package_name": "com.example.frontweb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_hTrCWdkVBtoOXpREwM030O9RYuYtxbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

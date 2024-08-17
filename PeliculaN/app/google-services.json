@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820816490581",
+    "project_id": "peliculas-cce93",
+    "storage_bucket": "peliculas-cce93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820816490581:android:a2167ff7ce51fc080c64dc",
+        "android_client_info": {
+          "package_name": "com.example.peliculan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxbHgl_Qp1cJLGE8sI_Lxd0QthxX_A1wA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
