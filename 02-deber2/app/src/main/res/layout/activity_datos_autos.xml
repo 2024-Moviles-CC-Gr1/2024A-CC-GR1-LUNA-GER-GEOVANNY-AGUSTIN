@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_autos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F5FA1"
+    android:backgroundTint="#3E3D5BB6"
+    tools:context=".DatosAutos">
+
+    <Button
+        android:id="@+id/btn_actualizar_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Modelo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <EditText
+        android:id="@+id/id_nombreModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/id_precioModelo"
+        app:layout_constraintEnd_toEndOf="@+id/id_precioModelo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_precioModelo" />
+
+    <EditText
+        android:id="@+id/id_precioModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:ems="10"
+        android:hint="Precio"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/id_tipoModelo"
+        app:layout_constraintEnd_toEndOf="@+id/id_tipoModelo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_tipoModelo" />
+
+    <EditText
+        android:id="@+id/id_tipoModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:ems="10"
+        android:hint="Tipo Modelo"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/id_tipCarro"
+        app:layout_constraintEnd_toEndOf="@+id/id_tipCarro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/id_tipCarro" />
+
+    <EditText
+        android:id="@+id/id_tipCarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:ems="10"
+        android:hint="Funciona"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btn_actualizar_auto"
+        app:layout_constraintEnd_toEndOf="@+id/btn_actualizar_auto"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/btn_actualizar_auto" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="211dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="40dp"
+        android:background="#00000000"
+        android:text="Modelo Auto"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/id_nombreModelo"
+        app:layout_constraintEnd_toEndOf="@+id/id_nombreModelo"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/id_nombreModelo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
