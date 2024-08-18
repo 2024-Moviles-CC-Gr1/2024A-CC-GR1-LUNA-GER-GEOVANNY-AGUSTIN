@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_datos_compania"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DatosDeCompania">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="423dp"
+        android:layout_height="736dp"
+        android:src="@drawable/fondo_auto3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="Datos de la Compañía"
+        android:textSize="36dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/input_id"
+        app:layout_constraintEnd_toEndOf="@+id/input_id"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/input_id" />
+
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar Inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <EditText
+        android:id="@+id/input_id"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="72dp"
+        android:ems="10"
+        android:hint="id"
+        android:textAlignment="center"
+        android:background="@drawable/compania_edittext"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/input_nombre"
+        app:layout_constraintEnd_toEndOf="@+id/input_nombre"
+        app:layout_constraintStart_toStartOf="@+id/input_nombre" />
+
+    <EditText
+        android:id="@+id/input_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="68dp"
+        android:ems="10"
+        android:background="@drawable/compania_edittext"
+        android:hint="nombre"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/input_descripcion"
+        app:layout_constraintEnd_toEndOf="@+id/input_descripcion"
+        app:layout_constraintStart_toStartOf="@+id/input_descripcion" />
+
+    <EditText
+        android:id="@+id/input_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/compania_edittext"
+        android:backgroundTint="#72c3fa"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="descripcion"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btn_actualizar"
+        app:layout_constraintEnd_toEndOf="@+id/btn_actualizar"
+        app:layout_constraintStart_toStartOf="@+id/btn_actualizar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
